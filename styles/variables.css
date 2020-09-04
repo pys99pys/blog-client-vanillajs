@@ -1,0 +1,19 @@
+:root {
+  --font-family: "Noto Sans KR", sans-serif;
+  --font-family-coding: "Nanum Gothic Coding", monospace;
+  --color-primary: #3caea3;
+  --color-sub-navy: #333b50;
+  --color-border: #eee;
+  --color-black: #444;
+  --color-red: #c21808;
+  --color-gray1: #666;
+  --color-gray2: #888;
+  --color-gray3: #aaa;
+  --color-gray4: #ccc;
+  --color-gray5: #ddd;
+  --color-gray6: #eee;
+  --color-gray7: #f5f5f5;
+  --color-gray8: #f9f9f9;
+  --size-header-height: 10rem;
+  --size-footer-height: 7.5rem;
+}

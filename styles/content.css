@@ -1,0 +1,23 @@
+.tags {
+  display: flex;
+}
+
+.tags span {
+  margin-right: 3px;
+  padding: 2px 8px 5px;
+  font-size: 0.675rem;
+  border-radius: 2px;
+  background-color: var(--color-gray7);
+  color: var(--color-gray3);
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .tags span {
+    font-size: 0.85rem;
+  }
+}

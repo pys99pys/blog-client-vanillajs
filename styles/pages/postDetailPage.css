@@ -1,0 +1,118 @@
+.post-detail-page__header {
+  padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.post-detail-page__header h1 {
+  margin-top: 1rem;
+  font-size: 2.75rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.post-detail-page__header time {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  color: var(--color-gray3);
+}
+
+.post-detail-page__content {
+  margin-top: 3rem;
+  white-space: pre-wrap;
+}
+
+.post-detail-page__content a {
+  color: var(--color-primary);
+}
+
+.post-detail-page__content h1,
+.post-detail-page__content h2,
+.post-detail-page__content h3,
+.post-detail-page__content h4,
+.post-detail-page__content h5,
+.post-detail-page__content h6 {
+  font-weight: 800;
+}
+
+.post-detail-page__content strong {
+  font-weight: 500;
+}
+
+.post-detail-page__content h5 {
+  font-size: 1.1rem;
+}
+
+.post-detail-page__content h4 {
+  font-size: 1.2rem;
+}
+.post-detail-page__content h3 {
+  font-size: 1.4rem;
+}
+.post-detail-page__content h2 {
+  font-size: 1.6rem;
+}
+.post-detail-page__content h1 {
+  font-size: 1.8rem;
+}
+
+.post-detail-page__content ul {
+  margin-block-end: 0;
+  padding-left: 2.5rem;
+  line-height: 0;
+  list-style: disc;
+}
+
+.post-detail-page__content ul li {
+  line-height: 1;
+}
+
+.post-detail-page__content ul li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.post-detail-page__content code {
+  margin-right: 2px;
+  padding: 5px;
+  position: relative;
+  top: -2px;
+  border-radius: 2px;
+  background-color: var(--color-gray7);
+  font-family: var(--font-family-coding);
+  font-size: 0.825rem;
+  color: var(--color-red);
+}
+
+.post-detail-page__content pre {
+  margin-bottom: 1rem;
+  padding: 1.15rem;
+  background-color: var(--color-gray7);
+}
+
+.post-detail-page__content pre code {
+  font-size: 0.95rem;
+  color: var(--color-black);
+}
+
+.post-detail-page__content blockquote {
+  padding-left: 1.5rem;
+  border-left: 5px solid var(--color-gray6);
+}
+
+.post-detail-page__content table {
+  width: 100%;
+}
+
+.post-detail-page__content table th,
+.post-detail-page__content table td {
+  padding: 0.75rem;
+  border: 1px solid var(--color-border);
+  font-size: 0.95rem;
+}
+
+.post-detail-page__content table th {
+  font-weight: 400;
+  background-color: var(--color-gray7);
+}

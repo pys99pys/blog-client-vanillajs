@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap");
+
+@import "./reset.css";
+@import "./variables.css";
+@import "./layout.css";
+@import "./content.css";
+@import "./pages/postPage.css";
+@import "./pages/postDetailPage.css";
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 300;
+  line-height: 1.35;
+  color: var(--color-black);
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
